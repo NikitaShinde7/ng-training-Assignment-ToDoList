@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+/* Add top margin to the whole container */
+.container {
+  margin-top: 50px;
+}
+
+/* Center the form and table within the container */
+.container h1 {
+  color: #007bff;
+}
+
+/* Style the Add Task button to float to the right */
+button.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  float: right;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Table Styling */
+table {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+thead th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+tbody td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td button {
+  margin: 0 5px;
+}
+
+
+/* Pagination styling */
+.pagination {
+  margin-top: 20px;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.page-link {
+  color: #007bff;
+}
+
+.page-link:hover {
+  background-color: #f8f9fa;
+  border-color: #007bff;
+}
+
